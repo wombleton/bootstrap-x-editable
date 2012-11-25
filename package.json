@@ -1,0 +1,30 @@
+{
+    "name": "bootstrap-x-editable",
+    "description": "In-place editing with Twitter Bootstrap",
+    "version": "1.0.1",
+    "keywords": ["bootstrap", "css", "ui", "inplace", "editable"],
+    "categories": ["UI"],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vitalets/x-editable"
+    },
+    "licenses": [
+        {
+            "type": "MIT"
+        }
+    ],
+    "jam": {
+        "main": "bootstrap-editable/js/bootstrap-editable.js",
+        "include": [
+            "bootstrap-editable/css/bootstrap-editable.css",
+            "bootstrap-editable/js/bootstrap-editable.js",
+            "LICENSE-MIT",
+            "README.md",
+            "index.js"
+        ],
+        "dependencies": {
+            "jquery": null,
+            "bootstrap": null
+        }
+    }
+}
